@@ -1,0 +1,26 @@
+Prishm links
+http://compositewpf.codeplex.com/ (old no support)
+gitshub
+https://github.com/prismlibrary/prism
+nuget
+https://www.nuget.org/packages/prism
+lifetimeManager
+https://msdn.microsoft.com/en-us/library/ff660872(v=pandp.20).aspx
+
+-----------------------------------------------------
+ install" Install-Package Prism.Unity" by package Manager Console in all project
+ Install-Package Prism.Unity -Version xxxxxx
+----------------------------------------------
+SportsStorePrism.Module.Services
+	1. Install-Package EntityFramework
+--------------------------------
+SportsStorePrismWpfApp
+	1. Install-Package EntityFramework
+	 Add reference to All Modules and SportsStorePrism.Infrastructure
+
+--------------------------------
+SportsStorePrism.Module.*
+	 Add reference to SportsStorePrism.Infrastructure
+
+
+------------------------------------
